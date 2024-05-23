@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transform and Transitions</title>
+	<style type="text/css">
+		div{
+			height: 150px;
+			width: 150px;
+			background: blue;
+			/*transform: translateX(25px);*/
+			/*transform: translateY(25px);*/
+			/*transform: translate(25px,25px);*/
+			/*transform: rotate(15deg);*/
+			/*transform: skew(-25deg);*/
+			/*transform: scale(3);*/
+
+		}
+		div:hover{
+			/*transform: rotate(70deg);*/
+			height: 250px;
+			width: 250px;
+			background: red;
+			transition-property: width,height,background;
+			transition-duration: 4s; 
+		}
+
+	</style>
+</head>
+<body style="display: flex;justify-content: center;align-items: center;height: 90vh">
+
+	<div ></div>
+
+</body>
+</html>

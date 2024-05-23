@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Positions in CSS</title>
+	<style type="text/css">
+		.parent{
+			width: 100%;
+			height: 500px;
+			background: yellow;
+			margin: 50px;
+			position: relative;
+			
+		}
+		.child1{
+			width: 100%;
+			height: 150px;
+			background: green;
+
+
+
+		}
+		.child2{
+			width: 100%;
+			height: 150px;
+			background: blue;
+			position: absolute;
+			top: 25px;
+
+			
+		}
+
+		.child3{
+			width: 100%;
+			height: 250px;
+			background: pink;
+			
+
+
+		}
+	</style>
+</head>
+<body>
+
+
+	<!-- 1.Static -->  <!-- default One based on block level and inline elements html page renders its positions -->
+	<!-- 2.Relative -->
+	<!-- 3.Absolute --> <!--  absolute position removes the element from document flow  Absolute used when i need to chgange position of a child element with respect to its parent position -->
+	<!-- 4.Fixed --> <!--  Disturbs the Document flow and change position with respect to document only -->
+	<!-- 5.Sticky --> <!-- placed in its own position once it reaches the given position it will stick to that position -->
+
+	<div class="parent">
+		parent
+			<div class="child1">Child1</div>
+			<div class="child2">Child2</div>
+			<div class="child3">Child3</div>
+
+	</div>
+
+</body>
+</html>

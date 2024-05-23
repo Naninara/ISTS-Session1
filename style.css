@@ -1,0 +1,59 @@
+/*class Selector*/
+/*.cssDemo{
+	height: 900px;
+	width: 700px;
+	background: grey;
+
+}*/
+
+
+/*id selector*/
+/*#idDemo{
+
+	height: 250px;
+	width: 100px;
+	background: yellow
+}*/
+
+/*combination selectors*/
+
+/*#navBar .div1{
+
+	color: blue
+}
+
+
+
+#navBar .div2{
+
+	color: green
+
+}*/
+
+
+/*element selctor*/
+
+
+h1{
+	color: yellow;
+	background:black;
+}
+
+#navBar div{
+	background: grey
+}
+
+
+span{
+	background: pink;
+}
+
+.downloadImage:hover{
+	width: 500px;
+	height: 700px;
+}
+
+.head4:hover{
+	color: white;
+	background:green;
+}
