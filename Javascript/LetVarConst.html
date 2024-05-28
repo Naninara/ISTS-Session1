@@ -12,8 +12,16 @@
 
   <script>
     // let var const -- defines about variable behaviour and accessibility
+
+    // scope- upto where the variable will be accessible
+
+    console.log("a", a);
+
+    // console.log(c);
+
+    abc();
+
     var a = 50;
-    console.log(a);
 
     var a = 30;
 
@@ -32,6 +40,26 @@
     const c = 50;
     console.log(c);
 
+    {
+      let funVar = 20;
+      var ans = 50;
+    }
+
+    function abc() {
+      console.log("Calling from abc func");
+    }
+
+    console.log("ans", ans);
+    console.log(funVar);
     //c = 70;
+
+    // 1.Allocate memory for all variables and functions - hoisting
+
+    // Diffences
+    // 1.Let and Const are block scopic variables means they are not save in the global scope they create seperate scope for themselves in memory
+    // 2.Let and const are hoisted in script scope and cannot be acccessed without intialization
+    // 3.let can be reassigned but cannot redeclared
+    //4. Var can be reassigned and also redeclared
+    // 5.const canot be reassigned or redeclared
   </script>
 </html>
